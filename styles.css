@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+@font-face {
+    font-family: Futuristic;
+    src: url(FUTURISTIC.otf);
+}
+
+.header {
+    display: flex;
+    padding: 2%;;
+    justify-content: center;
+    text-align: center;
+    font-family: Futuristic;
+    font-size: 500%;
+    color:transparent;
+    background-color: #F52F57;
+    background-image: linear-gradient(#F52F57,#F3752B);
+    -webkit-text-stroke: 1px #fff;
+
+}
+
+.flex-container {
+    display: flex;
+    padding: 2%;
+    flex:auto;
+    justify-content: space-evenly;
+    font-family: "Rubik", sans-serif;
+    font-size: large;
+    background-color: #121212;
+}
+
+.subheader {
+    display: flex;
+    justify-content: center;
+    font-family: FUTURISTIC, monospace;
+    background-color: #222222;
+    color:#F52F57;
+    line-height: 4;
+}
+
+
+#Rock.Button {
+    background-image: url(/images/rock.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #121212;
+    width:max-content;
+    height: max-content;
+    padding: 10%;
+    transition: background-color 1s ease-out 10ms;
+   
+    color: #232342;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#Paper.Button {
+    background-image: url(/images/paper.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #121212;
+    width:max-content;
+    height: max-content;
+    padding: 10%;
+    transition: background-color 1s ease-out 10ms;
+   
+    color: #232342;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#Scissors.Button {
+    background-image: url(/images/scissors.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #121212;
+    width:max-content;
+    height: max-content;
+    padding: 10%;
+    transition: background-color 1s ease-out 10ms;
+    box-shadow: none;   
+    color: #232342;
+    border: 200;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#Rock.Button:hover{
+    background-color: #F52F57;
+}
+
+#Paper.Button:hover{
+    background-color: #F52F57;
+}
+
+#Scissors.Button:hover{
+    background-color: #F52F57;
+}
+
+/* Save this
+
+ background-image: url(/images/scissors.svg), radial-gradient(#F52F57, rgba(243,117,43,0.5), transparent 60%);
+
+ */
+
+#result {
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #EDEDF4;
+    height:180px;
+    padding-top: 1%;
+}
+
+#Score {
+    display: block;
+    font-weight:bold;
+    color: #F3752B;
+    font-size: 400%;
+    padding-bottom: 1%;
+}
