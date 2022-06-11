@@ -43,7 +43,7 @@
 
 
 #Rock.Button {
-    background-image: url(/images/rock.svg);
+    background-image: url(./images/rock.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -61,7 +61,7 @@
 }
 
 #Paper.Button {
-    background-image: url(/images/paper.svg);
+    background-image: url(./images/paper.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -79,7 +79,7 @@
 }
 
 #Scissors.Button {
-    background-image: url(/images/scissors.svg);
+    background-image: url(./images/scissors.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
